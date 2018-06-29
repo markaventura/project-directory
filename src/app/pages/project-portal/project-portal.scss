@@ -1,0 +1,49 @@
+/* buttons */
+.btn-tip {
+  border-radius: 0;
+}
+
+.btn-outline {
+  border: 1px solid #cec067;
+  color: #cec067;
+  background-color: transparent;
+
+  &:hover {
+    background-color: #cec067;
+    color: white;
+  }
+}
+
+.btn-i {    
+  padding: 3px 5px 2px 5px;
+  border-radius: 4px;
+  
+  i {
+    &:before {
+      font-weight: bold;
+      font-size: 13px;
+    }
+  }
+}
+
+.add-project-container {
+  padding-top: 6px;
+  padding-left: 20px;
+  float: left;
+}
+
+.fleft {
+  float: left;
+}
+
+.bold {
+  font-weight: bold
+}
+
+.border-rad-0 {
+  border-radius: 0
+}
+
+.text-dark {
+  color: #000 !important;
+}
